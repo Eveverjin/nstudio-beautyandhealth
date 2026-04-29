@@ -1,0 +1,17 @@
+{
+  "name": "nstudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "cms": "tinacms dev -c \"echo ready\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tinacms/cli": "^2.2.5",
+    "tinacms": "^3.7.5"
+  }
+}
