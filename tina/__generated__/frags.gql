@@ -1,0 +1,27 @@
+fragment SettingsParts on Settings {
+  __typename
+  heroTitle
+  heroSubtitle
+  introHeading
+  introText
+  bookingUrl
+  heroImage
+}
+
+fragment TeamParts on Team {
+  __typename
+  name
+  role
+  bio
+  photo
+}
+
+fragment InfoParts on Info {
+  __typename
+  address
+  mapsUrl
+  hours
+  phone
+  email
+  instagram
+}
