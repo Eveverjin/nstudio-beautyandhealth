@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Studio — N Studio Beauty & Health</title>
+  <meta name="description" content="Step inside N Studio — our newly expanded salon space designed for your comfort and relaxation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="studio.css" />
+</head>
+<body class="studio-page">
+
+  <!-- NAV -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.svg" alt="N Studio Beauty &amp; Health" />
+      </a>
+      <nav class="nav__links">
+        <a href="index.html#gallery">Gallery</a>
+        <a href="studio.html" class="nav__active">The Studio</a>
+        <a href="index.html#team">Team</a>
+        <a href="index.html#info">Find Us</a>
+        <a href="index.html#book" class="nav__cta">Book Now</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="index.html#gallery" class="mobile-link">Gallery</a>
+      <a href="studio.html" class="mobile-link">The Studio</a>
+      <a href="index.html#team" class="mobile-link">Team</a>
+      <a href="index.html#info" class="mobile-link">Find Us</a>
+      <a href="index.html#book" class="mobile-link mobile-link--cta">Book Now</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="studio-hero">
+    <div class="studio-hero__text">
+      <p class="section-label">Our Space</p>
+      <h1 class="studio-hero__title">The Studio</h1>
+      <p class="studio-hero__sub">We recently expanded our space — more room, more light, the same warmth. Come see it for yourself.</p>
+    </div>
+    <!-- Replace with a wide studio photo: <img src="images/studio-hero.jpg" alt="N Studio interior"> -->
+    <div class="studio-hero__img studio-placeholder">
+      <span>Add studio-hero.jpg — a wide shot of the full salon</span>
+    </div>
+  </section>
+
+  <!-- STUDIO GRID -->
+  <section class="studio-grid-section">
+    <div class="container">
+
+      <div class="studio-grid">
+
+        <!-- Row 1: one wide + one tall -->
+        <div class="studio-grid__item studio-grid__item--wide studio-placeholder">
+          <span>studio-1.jpg<br>Reception / entrance area</span>
+          <!-- <img src="images/studio-1.jpg" alt="Reception"> -->
+        </div>
+        <div class="studio-grid__item studio-grid__item--tall studio-placeholder">
+          <span>studio-2.jpg<br>Nail station detail</span>
+          <!-- <img src="images/studio-2.jpg" alt="Nail station"> -->
+        </div>
+
+        <!-- Row 2: three equal -->
+        <div class="studio-grid__item studio-placeholder">
+          <span>studio-3.jpg<br>Seating area</span>
+          <!-- <img src="images/studio-3.jpg" alt="Seating area"> -->
+        </div>
+        <div class="studio-grid__item studio-placeholder">
+          <span>studio-4.jpg<br>Products &amp; shelving</span>
+          <!-- <img src="images/studio-4.jpg" alt="Products"> -->
+        </div>
+        <div class="studio-grid__item studio-placeholder">
+          <span>studio-5.jpg<br>Lighting / ambience</span>
+          <!-- <img src="images/studio-5.jpg" alt="Ambience"> -->
+        </div>
+
+        <!-- Row 3: one tall + one wide -->
+        <div class="studio-grid__item studio-grid__item--tall studio-placeholder">
+          <span>studio-6.jpg<br>Full station view</span>
+          <!-- <img src="images/studio-6.jpg" alt="Station"> -->
+        </div>
+        <div class="studio-grid__item studio-grid__item--wide studio-placeholder">
+          <span>studio-7.jpg<br>Panoramic / overview of the expanded space</span>
+          <!-- <img src="images/studio-7.jpg" alt="Studio overview"> -->
+        </div>
+
+        <!-- Row 4: two equal -->
+        <div class="studio-grid__item studio-placeholder">
+          <span>studio-8.jpg<br>Decor detail</span>
+          <!-- <img src="images/studio-8.jpg" alt="Decor"> -->
+        </div>
+        <div class="studio-grid__item studio-placeholder">
+          <span>studio-9.jpg<br>Window / natural light</span>
+          <!-- <img src="images/studio-9.jpg" alt="Natural light"> -->
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="book" id="book">
+    <div class="container container--narrow book__inner">
+      <p class="section-label section-label--light">Ready?</p>
+      <h2 class="book__title">Come Visit Us</h2>
+      <p class="book__sub">We'd love to welcome you into our new space.</p>
+      <a href="#BOOKING-LINK-HERE" target="_blank" rel="noopener" class="btn btn--light btn--lg">Book an Appointment</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">N Studio</span>
+      <span class="footer__copy">&copy; 2026 N Studio Beauty &amp; Health</span>
+      <a href="https://www.instagram.com/nstudio_beautyandhealth" target="_blank" rel="noopener" class="footer__ig" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
