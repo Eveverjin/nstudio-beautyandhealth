@@ -2,7 +2,7 @@
 const nav = document.getElementById('nav');
 
 function updateNav() {
-  const scrolled = window.scrollY > 40;
+  const scrolled = window.scrollY > 60;
   nav.classList.toggle('scrolled', scrolled);
   nav.classList.toggle('hero-top', !scrolled);
 }
