@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "build": "tinacms build",
     "cms": "tinacms dev -c \"echo ready\""
   },
   "keywords": [],
